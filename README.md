@@ -1,2 +1,4 @@
 # Join Codes
-JoinCodes to join friends
+Join codes to join friends with Thrixmin admin.
+
+https://github.com/0zBug/Thrixmin
