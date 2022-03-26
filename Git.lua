@@ -11,8 +11,8 @@ function Git.Push(Repository, File, Content)
     request({
         Url = Url,
         Method = "PUT",
-        Headers = {["Content-Type"] = "application/json", ["Authorization"] = "token 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"},
-        Body = HttpService:JSONEncode({message = "push", content = Base64.Encode(Content), sha = HttpService:JSONDecode(request({Url = Url, Method = "GET", Headers = {["Authorization"] = "token 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"}}).Body).sha})
+        Headers = {["Content-Type"] = "application/json", ["Authorization"] = "token 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"},
+        Body = HttpService:JSONEncode({message = "push", content = Base64.Encode(Content), sha = HttpService:JSONDecode(request({Url = Url, Method = "GET", Headers = {["Authorization"] = "token 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"}}).Body).sha})
     })
 end
 
